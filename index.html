@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    <header>
+<body class="bg-deco">
+    <header class="bg-deco">
         <nav>
             <div class="overlay">
                 <label for="toggle">
@@ -24,7 +24,7 @@
                     <div class="nav-item">
                         <a href="index.html" class="contrast">PORTFOLIO</a>
                         <svg class="small-circle" viewBox="-2 -9 75 75">
-                            <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                     <ul class="sub-nav">
@@ -33,7 +33,7 @@
                             <div class="nav-item">
                                 <a href="case-studies.html" class="contrast">CASE STUDIES</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                                    <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -42,7 +42,7 @@
                             <div class="nav-item">
                                 <a href="digital-media.html" class="contrast">DIGITAL MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -51,7 +51,7 @@
                             <div class="nav-item">
                                 <a href="mixed-media.html" class="contrast">MIXED MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -11 75 75">
-                                    <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                                    <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -60,7 +60,7 @@
                             <div class="nav-item">
                                 <a href="photography.html" class="contrast">PHOTOGRAPHY</a>
                                 <svg class="small-circle" viewBox="-2 -9 75 75">
-                                    <circle class="genie" cx="30" cy="25" r="25"/>
+                                    <circle class="genie-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -71,7 +71,7 @@
                     <div class="nav-item">
                         <a href="about.html" class="contrast">ABOUT</a>
                         <svg class="small-circle" viewBox="-2 -8 75 75">
-                            <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                            <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
@@ -80,7 +80,7 @@
                     <div class="nav-item">
                         <a href="resume.html" class="contrast">RESUME</a>
                         <svg class="small-circle" viewBox="-2 -6 75 75">
-                            <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
@@ -89,75 +89,145 @@
         <!--home title-->
         <div class="right-align">
             <h1 class="home-title">Portfolio</h1>
-            <h3 class="home-subtitle"><span class="espresso-bar-text">Daryn</span> <span class="nutmeg-text">Lam</span></h3>
+            <h3 class="home-subtitle"><span class="espresso-bar-inv-text">Daryn</span> <span class="nutmeg-inv-text">Lam</span></h3>
         </div>
     </header>
     <main>
         <!--case study 1-->
-        <section>
-            <article>
-                <div>
-                    <h2>D&D 5e Wikidot</h2>
-                    <p>Interactive Website Design</p>
-                    <h4><a href="dd5e-wikidot.html" class="button-link">see more &#9656;</a></h4>
+        <section class="home-section">
+            <article class="case-study-article">
+                <img class="left" src="images/dnd5e_cover.jpg" alt="">
+                <div class="left-align">
+                    <h2 class="home-section-title">D&D 5e Wikidot</h2>
+                    <p class="tag-line espresso-bar-inv-text">Interactive Website Design</p>
+                    <h4>
+                        <a href="dd5e-wikidot.html" class="button-link">see m<span class="dark-text">ore &#9656;</span>
+                        <svg class="small-circle-button-1" viewBox="0 0 75 75">
+                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
+                        </svg>
+                        </a>
+                    </h4>
                 </div>
             </article>
+            <svg class="home-backing-circle-left" viewBox="0 0 200 200">
+                <circle class="genie-inv" cx="100" cy="100" r="100"/>
+            </svg>
         </section>
         <!--case study 2-->
-        <section>
-            <article>
-                <div>
-                    <h2>IRL.RPG</h2>
-                    <p>App Design</p>
-                    <h4><a href="irl-rpg.html" class="button-link">see more &#9656;</a></h4>
+        <section class="home-section">
+            <article class="case-study-article">
+                <div class="left-align-left">
+                    <h2 class="home-section-title">Generic Website</h2>
+                    <p class="tag-line-left nutmeg-inv-text">Website Redesign</p>
                 </div>
+                <img class="right" src="images/generic_website_cover.jpg" alt="">
             </article>
+            <h4>
+                <a href="generic-website.html" class="button-link-left">see m<span class="dark-text">ore &#9656;</span>
+                <svg class="small-circle-button-2" viewBox="0 0 75 75">
+                    <circle class="genie-inv" cx="30" cy="25" r="25"/>    
+                </svg>
+                </a>
+            </h4>
+            <svg class="home-backing-circle-right" viewBox="0 0 200 200">
+                <circle class="blue-whale-inv" cx="100" cy="100" r="100"/>
+            </svg>
         </section>
         <!--case study 3-->
-        <section>
-            <article>
-                <div>
-                    <h2>Generic Website</h2>
-                    <p>Website Redesign</p>
-                    <h4><a href="generic-website.html" class="button-link">see more &#9656;</a></h4>
+        <section class="home-section">
+            <article class="case-study-article">
+                <img class="left" src="images/irlrpg_newtaskpage1.png" alt="">
+                <div class="left-align">
+                    <h2 class="home-section-title">IRL.RPG</h2>
+                    <p class="tag-line genie-inv-text">App Design</p>
+                    <h4>
+                        <a href="irl-rpg.html" class="button-link">see m<span class="dark-text">ore &#9656;</span>
+                        <svg class="small-circle-button-3" viewBox="0 0 75 75">
+                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>    
+                        </svg>
+                        </a>
+                    </h4>
                 </div>
             </article>
+            <svg class="home-backing-circle-left" viewBox="0 0 200 200">
+                <circle class="espresso-bar-inv" cx="100" cy="100" r="100"/>
+            </svg>
         </section>
         <!--case study 4-->
-        <section>
-            <article>
-                <div>
-                    <h2>Taquer&iacute;a Dos Hermanos</h2>
-                    <p>Website Redesign</p>
-                    <h4><a href="taqueria-dos-hermanos.html" class="button-link">see more &#9656;</a></h4>
+        <section class="home-section">
+            <article class="case-study-article">
+                <div class="left-align-long">
+                    <h2 class="home-section-title">Taqueria Dos Hermanos</h2>
+                    <p class="tag-line-left blue-whale-inv-text">Website Redesign</p>
                 </div>
+                <img class="right" src="images/tdh_cover.jpg" alt="">
             </article>
+            <h4><a href="taqueria-dos-hermanos.html" class="button-link-left">see m<span class="dark-text">ore &#9656;</span>
+                <svg class="small-circle-button-4" viewBox="0 0 75 75">
+                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>    
+                </svg>
+                </a>
+            </h4>
+            <svg class="home-backing-circle-right" viewBox="0 0 200 200">
+                <circle class="nutmeg-inv" cx="100" cy="100" r="100"/>
+            </svg>
         </section>
         <!--digital media-->
-        <section>
-            <div>
+        <section class="home-section-extra">
+            <svg class="giant-circle" viewBox="100 -100 300 300">
+                <circle class="genie-inv" cx="100" cy="100" r="100"/>
+            </svg>
+            <div class="right-align">
                 <h3>Digital Media</h3>
-                <h4><a href="digital-media.html" class="button-link">see more &#9656;</a></h4>
+                <h4>
+                    <a href="digital-media.html" class="button-link"><span class="dark-text">se</span>e more &#9656;
+                    <svg class="small-circle-button-5" viewBox="0 2 250 250">
+                        <circle class="blue-whale-inv" cx="52.5" cy="32" r="30"/>    
+                    </svg>
+                    </a>
+                </h4>
             </div>
         </section>
         <!--mixed media-->
-        <section>
-            <div>
+        <section class="home-section-extra">
+            <svg class="giant-circle" viewBox="100 -100 300 300">
+                <circle class="blue-whale-inv" cx="100" cy="100" r="100"/>
+            </svg>
+            <div class="right-align">
                 <h3>Mixed Media</h3>
-                <h4><a href="mixed-media.html" class="button-link">see more &#9656;</a></h4>
+                <h4>
+                    <a href="mixed-media.html" class="button-link-left"><span class="dark-text">se</span>e more &#9656;
+                    <svg class="small-circle-button-5" viewBox="0 2 250 250">
+                        <circle class="espresso-bar-inv" cx="52.5" cy="32" r="30"/>    
+                    </svg>
+                    </a>
+                </h4>
             </div>
         </section>
         <!--photography-->
-        <section>
-            <div>
+        <section class="home-section-extra">
+            <svg class="giant-circle" viewBox="100 -100 300 300">
+                <circle class="espresso-bar-inv" cx="100" cy="100" r="100"/>
+            </svg>
+            <div class="right-align">
                 <h3>Photography</h3>
-                <h4><a href="photography.html" class="button-link">see more &#9656;</a></h4>
+                <h4>
+                    <a href="photography.html" class="button-link-left"><span class="dark-text">se</span>e more &#9656;
+                    <svg class="small-circle-button-5" viewBox="0 2 250 250">
+                        <circle class="nutmeg-inv" cx="52.5" cy="32" r="30"/>    
+                    </svg>
+                    </a>
+                </h4>
             </div>
         </section>
         <a href="#top" class="back-to-top">
-            <div>
-                <h5>&#9652;<br>Back to Top</h5>
+            <div class="center">
+                <h5 class="dark-text">&#9652;</h5>
+                <h5>B<span class="dark-text">ack to To</span>p</h5>
             </div>
+            <svg class="back-to-top-circle" viewBox="0 0 100 100">
+                <circle class="genie-inv" cx="50" cy="30" r="30"/>    
+            </svg>
         </a>
     </main>
     <footer></footer>
