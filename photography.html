@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body id="top">
-    <header>
+<body class="bg-deco">
+    <header class="bg-deco">
         <nav>
             <div class="overlay">
                 <label for="toggle">
@@ -24,7 +24,7 @@
                     <div class="nav-item">
                         <a href="index.html" class="contrast">PORTFOLIO</a>
                         <svg class="small-circle" viewBox="-2 -9 75 75">
-                            <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                     <ul class="sub-nav">
@@ -33,7 +33,7 @@
                             <div class="nav-item">
                                 <a href="case-studies.html" class="contrast">CASE STUDIES</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                                    <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -42,7 +42,7 @@
                             <div class="nav-item">
                                 <a href="digital-media.html" class="contrast">DIGITAL MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -51,7 +51,7 @@
                             <div class="nav-item">
                                 <a href="mixed-media.html" class="contrast">MIXED MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -11 75 75">
-                                    <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                                    <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -60,7 +60,7 @@
                             <div class="nav-item">
                                 <a href="photography.html" class="contrast">PHOTOGRAPHY</a>
                                 <svg class="small-circle" viewBox="-2 -9 75 75">
-                                    <circle class="genie" cx="30" cy="25" r="25"/>
+                                    <circle class="genie-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -71,7 +71,7 @@
                     <div class="nav-item">
                         <a href="about.html" class="contrast">ABOUT</a>
                         <svg class="small-circle" viewBox="-2 -8 75 75">
-                            <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                            <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
@@ -80,16 +80,17 @@
                     <div class="nav-item">
                         <a href="resume.html" class="contrast">RESUME</a>
                         <svg class="small-circle" viewBox="-2 -6 75 75">
-                            <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
             </ul>
         </nav>
         <!--photography title-->
+        <div class="blank-space"></div>
         <div class="general-title">
             <div class="page-title">
-                <h2>Photography</h2>
+                <h2 class="lower-case"><span class="genie-inv-text">Phot</span><span class="blue-whale-inv-text">ogr</span>aphy</h2>
             </div>
         </div>
     </header>
@@ -131,9 +132,14 @@
         </div>
     </div>
     <a href="#top" class="back-to-top">
-        <div>
-            <h5>&#9652;<br>Back to Top</h5>
+        <div class="center">
+            <h5 class="dark-text">&#9652;</h5>
+            <h5>B<span class="dark-text">ack to To</span>p</h5>
         </div>
+        <svg class="back-to-top-circle" viewBox="0 0 100 100">
+            <circle class="genie-inv" cx="50" cy="30" r="30"/>    
+        </svg>
     </a>
+    <footer></footer>
 </body>
 </html>
