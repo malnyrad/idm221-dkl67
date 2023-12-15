@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body id="top">
-    <header>
+<body class="bg-deco">
+    <header class="bg-deco">
         <nav>
             <div class="overlay">
                 <label for="toggle">
@@ -24,7 +24,7 @@
                     <div class="nav-item">
                         <a href="index.html" class="contrast">PORTFOLIO</a>
                         <svg class="small-circle" viewBox="-2 -9 75 75">
-                            <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                     <ul class="sub-nav">
@@ -33,7 +33,7 @@
                             <div class="nav-item">
                                 <a href="case-studies.html" class="contrast">CASE STUDIES</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="nutmeg" cx="30" cy="25" r="25"/>
+                                    <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -42,7 +42,7 @@
                             <div class="nav-item">
                                 <a href="digital-media.html" class="contrast">DIGITAL MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -51,7 +51,7 @@
                             <div class="nav-item">
                                 <a href="mixed-media.html" class="contrast">MIXED MEDIA</a>
                                 <svg class="small-circle" viewBox="-2 -11 75 75">
-                                    <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                                    <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -60,7 +60,7 @@
                             <div class="nav-item">
                                 <a href="photography.html" class="contrast">PHOTOGRAPHY</a>
                                 <svg class="small-circle" viewBox="-2 -9 75 75">
-                                    <circle class="genie" cx="30" cy="25" r="25"/>
+                                    <circle class="genie-inv" cx="30" cy="25" r="25"/>
                                 </svg>
                             </div>
                         </li>
@@ -71,7 +71,7 @@
                     <div class="nav-item">
                         <a href="about.html" class="contrast">ABOUT</a>
                         <svg class="small-circle" viewBox="-2 -8 75 75">
-                            <circle class="espresso-bar" cx="30" cy="25" r="25"/>
+                            <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
@@ -80,70 +80,74 @@
                     <div class="nav-item">
                         <a href="resume.html" class="contrast">RESUME</a>
                         <svg class="small-circle" viewBox="-2 -6 75 75">
-                            <circle class="blue-whale" cx="30" cy="25" r="25"/>
+                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
                         </svg>
                     </div>
                 </li>
             </ul>
         </nav>
         <!--digital media title-->
+        <div class="blank-space"></div>
         <div class="general-title">
             <div class="page-title">
-                <h2>Digital Media</h2>
+                <h2 class="lower-case"><span class="nutmeg-inv-text">Digi</span><span class="espresso-bar-inv-text">tal M</span>edia</h2>
             </div>
         </div>
     </header>
     <main>
-        <section>
+        <section class="half-space">
             <!--low poly self portrait-->
             <div class="media-item">
-                <div>
-                    <img src="images/low_poly.webp" alt="">
+                <img src="images/low_poly.webp" alt="">
+                <div class="left-align">
                     <h5>Low Poly Self Portrait</h5>
                     <p>2023 / Illustrator + Photoshop</p>
-                    <p>VSST 109: Design II for Media</p>
+                    <p class="italic">VSST 109: Design II for Media</p>
                 </div>
             </div>
             <!--alis in wvnderland-->
             <div class="media-item">
-                <div>
-                    <h5>Alis in Wvnderland</h5>
+                <div class="right-align">
+                    <h5>&Lambda;LIS IN WVNDERL&Lambda;ND</h5>
                     <p>2021 / Medibang Paint Pro</p>
-                    <img src="images/alis_in_wvnderland.webp" alt="">
                 </div>
+                <img src="images/alis_in_wvnderland.webp" alt="">
             </div>
             <!--florolvia 1-->
             <div class="media-item">
-                <div>
-                    <img src="images/atropa_belladonna.webp" alt="">
+                <img src="images/atropa_belladonna.webp" alt="">
+                <div class="left-align">
                     <h5>FLRLV: Atropa Belladonna</h5>
                     <p>2022 / Medibang Paint Pro</p>
                 </div>
             </div>
             <!--florolvia 2-->
             <div class="media-item">
-                <div>
+                <div class="right-align">
                     <h5>FLRLV: Nesocodon Mauritianus</h5>
                     <p>2022 / Medibang Paint Pro</p>
-                    <img src="images/nesocodon_mauritianus.webp" alt="">
                 </div>
+                <img src="images/nesocodon_mauritianus.webp" alt="">
             </div>
             <!--mermay-->
             <div class="media-item">
-                <div>
+                <div class="center-horizontal">
                     <img src="images/mermay.webp" alt="">
-                </div>
-                <div>
-                    <h5>Aegri Somnia Abyssus Invocat</h5>
-                    <p>2022 / Medibang Paint Pro</p>
+                    <h5 class="center-horizontal">Aegri Somnia Abyssus Invocat</h5>
+                    <p class="center-horizontal">2022 / Medibang Paint Pro</p>
                 </div>
             </div>
-            <a href="#top" class="back-to-top">
-                <div>
-                    <h5>&#9652;<br>Back to Top</h5>
-                </div>
-            </a>
         </section>
+        <a href="#top" class="back-to-top">
+            <div class="center">
+                <h5 class="dark-text bold">&#9652;</h5>
+                <h5>B<span class="dark-text bold">ack to To</span>p</h5>
+            </div>
+            <svg class="back-to-top-circle" viewBox="0 0 100 100">
+                <circle class="genie-inv" cx="50" cy="30" r="30"/>    
+            </svg>
+        </a>
     </main>
+    <footer></footer>
 </body>
 </html>
