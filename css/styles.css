@@ -657,8 +657,20 @@ div.left-align-long > h2 {
 
 .case-study-description img{
     border-radius: 1vw;
-    margin: 1vw;
+    filter: drop-shadow(0vw 2vw 2vw rgba(0, 0, 0, 0.50));
+    width: 55vw;
+}
+
+.case-study-description img.horizontal-image{
+    border-radius: 1vw;
+    filter: drop-shadow(0vw 2vw 2vw rgba(0, 0, 0, 0.50));
     width: 90vw;
+}
+
+.case-study-description img.image-small{
+    border-radius: 1vw;
+    filter: drop-shadow(0vw 2vw 2vw rgba(0, 0, 0, 0.50));
+    width: 27.5vw;
 }
 
 
@@ -717,6 +729,42 @@ div.left-align-long > h2 {
 
 .vertical-photoset img {
     width: 43vw;
+}
+
+
+/*about*/
+
+.about-image {
+    border: 0.5vw solid var(--background-light);
+    border-radius: 1vw;
+    display: block;
+    margin: auto;
+    width: 60vw;
+}
+
+.about-image-horizontal {
+    border: 0.5vw solid var(--background-light);
+    border-radius: 1vw;
+    display: block;
+    margin: auto;
+    width: 80vw;
+}
+
+.about-me {
+    margin: 8vw;
+}
+
+.about-icons {
+    align-items: center;
+    display: flex;
+    filter: invert(93%) sepia(2%) saturate(656%) hue-rotate(51deg) brightness(107%) contrast(93%);
+    justify-content: center;
+    margin-left: -3vw;
+}
+
+.about-icons img {
+    margin: 6vw;
+    width: 15vw;
 }
 
 
