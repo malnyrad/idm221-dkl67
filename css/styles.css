@@ -185,6 +185,14 @@ h5 {
     margin: 0;
 }
 
+h6 {
+    font-family: var(--aremsmile);
+    font-size: 16vw; 
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .025rem;
+}
+
 p {
     font-family: var(--ot-round);
     font-size: 4.1vw;
