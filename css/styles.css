@@ -546,20 +546,17 @@ div.blank-space {
 
 div.left-align > h2 {
     font-size: 10vw;
-    line-height: auto;
     margin: 1vw;
 }
 
 div.left-align-left > h2 {
     font-size: 10vw;
-    line-height: auto;
     margin: 1vw;
     padding-left: 8vw;
 }
 
 div.left-align-long > h2 {
     font-size: 6.2vw;
-    line-height: auto;
     margin: 1vw;
     padding-left: 8vw;
 }
