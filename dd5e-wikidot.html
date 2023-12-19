@@ -3,119 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio | d&amp;d 5e wikidot</title>
+    <title>LAMDA | d&amp;d 5e wikidot</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-deco">
-    <header class="bg-deco">
+    <header class="header-bar">
+        <h6><a href="index.html" class="logo" id="top">&lambda;</a></h6>
+        <!--navigation-->
         <nav>
-            <div class="overlay">
-                <label for="toggle">
-                    <img src="images/hamburger-menu.svg" alt="Hamburger menu">
-                </label>
-                <h6><a href="index.html" class="nav-logo" id="top">&lambda;</a></h6>
-            </div>
-            <input id="toggle" type="checkbox" name="toggle">
-            <!--navigation-->
-            <ul class="nav-links">
-                <!--portfolio; same as home page-->
-                <li>
-                    <div class="nav-item">
-                        <a href="index.html" class="contrast">PORTFOLIO</a>
-                        <svg class="small-circle" viewBox="-2 -9 75 75">
-                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                    <ul class="sub-nav">
-                        <!--case studies-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="case-studies.html" class="contrast">CASE STUDIES</a>
-                                <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--digital media-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="digital-media.html" class="contrast">DIGITAL MEDIA</a>
-                                <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--mixed media-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="mixed-media.html" class="contrast">MIXED MEDIA</a>
-                                <svg class="small-circle" viewBox="-2 -11 75 75">
-                                    <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--photography-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="photography.html" class="contrast">PHOTOGRAPHY</a>
-                                <svg class="small-circle" viewBox="-2 -9 75 75">
-                                    <circle class="genie-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <!--about me-->
-                <li>
-                    <div class="nav-item">
-                        <a href="about.html" class="contrast">ABOUT</a>
-                        <svg class="small-circle" viewBox="-2 -8 75 75">
-                            <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                </li>
-                <!--resume-->
-                <li>
-                    <div class="nav-item">
-                        <a href="resume.html" class="contrast">RESUME</a>
-                        <svg class="small-circle" viewBox="-2 -6 75 75">
-                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                </li>
+            <input id="toggle" type="checkbox">
+            <label class="menu-button" for="toggle">
+                <img src="images/hamburger-menu.svg" class="light-filter" alt="Hamburger menu">
+                <span></span>
+            </label>
+            <ul class="bg-deco-2 menu-overlay">
+                <li><a href="index.html" class="lower-case nutmeg-inv-text selected-menu-item">Home</a></li>
+                <li><a href="personal.html" class="lower-case menu-item">Personal</a></li>
+                <li><a href="about.html" class="lower-case menu-item">About</a></li>
+                <li><a href="resume.html" class="lower-case menu-item">Resume</a></li>
             </ul>
         </nav>
-        <!--d&d wikidot title-->
-        <div class="blank-space"></div>
-        <div class="case-study-header">
-            <h2>D&amp;D 5e Wikidot</h2>
-            <p class="tag-line lower-case">Interactive Website Design</p>
-            <img src="images/dnd5e_cover.jpg" alt="D&D 5e Wikidot home page, reimagined">
-            <p class="italic">Click <a href="https://www.figma.com/proto/Og7sNTtcr0GrghRDIqcdbh/2023_Winter_Lam_D_IDM212_FinalProject?page-id=57%3A2&type=design&node-id=57-3&viewport=663%2C525%2C0.12&t=H7aN9OmKKmV4FZQK-1&scaling=scale-down&starting-point-node-id=57%3A3&show-proto-sidebar=1&mode=design" target="_blank" class="text-link">here</a> to try the mobile prototype!</p>
-        </div>
     </header>
     <main>
-        <div class="sub-header bit-space">
-            <h2><span class="nutmeg-inv-text">P</span>roject <span class="nutmeg-inv-text">D</span>escription</h2>
+        <!--d&d wikidot title-->
+        <h2 class="blank-space center-align project-header">D&amp;D 5e Wikidot</h2>
+        <p class="center-align lower-case nutmeg-inv-text tag-line">Interactive Website Design</p>
+        <img src="images/dnd5e_cover.jpg" class="project-vertical">
+        <p class="center-align italic lower-case">Click <a href="https://www.figma.com/proto/Og7sNTtcr0GrghRDIqcdbh/2023_Winter_Lam_D_IDM212_FinalProject?page-id=57%3A2&type=design&node-id=57-3&viewport=663%2C525%2C0.12&t=H7aN9OmKKmV4FZQK-1&scaling=scale-down&starting-point-node-id=57%3A3&show-proto-sidebar=1&mode=design" target="_blank" class="text-link">here</a> to try the mobile prototype!</p>
+        <div class="half-space"></div>
+        <!--description-->
+        <h2 class="lower-case no-margin"><span class="nutmeg-inv-text">P</span>roject <span class="nutmeg-inv-text">D</span>escription</h2>
+        <p>&emsp;&emsp;This project was an interactive redesign for a website of our choosing for IDM 211 and IDM 212 (User Interface Design I and II). Our goal was to critique a website that we believed had certain flaws we could improve upon for greater usability and adherence to interface design principles. Using Figma, we designed, wireframed, and prototyped our reimagined websites.</p>
+        <p>&emsp;&emsp;The website I chose to critique was <a href="http://dnd5e.wikidot.com/" target="_blank" class="text-link">D&D 5e Wikidot</a>, which is a wiki for Dungeon & Dragons 5th Edition. The main goal of the website is to provide a subscription-free resource for D&D 5e to the general public. This project aimed to restructure the current website to reduce clutter and better suit the themes and visuals of its representative game.</p>
+        <img src="images/dnd5e_desktop.jpg" class="project-horizontal" alt="A desktop version of the reimagined D&D 5e Wikidot home page">
+        <p class="center-align italic lower-case">Desktop version</p>
+        <div class="quarter-space"></div>
+        <!--button group-->
+        <div class="next-button">
+            <a href="generic-website.html"><img src="images/circle.svg" class="espresso-bar-inv-filter" alt="circle"></a>
+            <a href="generic-website.html" class="button-link">ne<span class="dark-text">xt &#9656;</span></a>
         </div>
-        <div class="case-study-description">
-            <p>&emsp;&emsp;This project was an interactive redesign for a website of our choosing for IDM 211 and IDM 212 (User Interface Design I and II). Our goal was to critique a website that we believed had certain flaws we could improve upon for greater usability and adherence to interface design principles. Using Figma, we designed, wireframed, and prototyped our reimagined websites.</p>
-            <p>&emsp;&emsp;The website I chose to critique was <a href="http://dnd5e.wikidot.com/" target="_blank" class="text-link">D&D 5e Wikidot</a>, which is a wiki for Dungeon & Dragons 5th Edition. The main goal of the website is to provide a subscription-free resource for D&D 5e to the general public. This project aimed to restructure the current website to reduce clutter and better suit the themes and visuals of its representative game.</p>
-            <div class="center-horizontal">
-                <img src="images/dnd5e_desktop.jpg" alt="A desktop version of the reimagined D&D 5e Wikidot home page" class="horizontal-image">
-                <p class="italic">Desktop version</p>
-            </div>
+        <div class="half-space"></div>
+        <div class="back-button">
+            <a href="index.html#my-projects"><img src="images/circle.svg" class="nutmeg-inv-filter" alt="circle"></a>
+            <a href="index.html#my-projects" class="button-link">go back</a>
         </div>
-        <a href="#top" class="back-to-top">
-            <div class="center">
-                <h5 class="dark-text bold">&#9652;</h5>
-                <h5>B<span class="dark-text bold">ack to To</span>p</h5>
-            </div>
-            <svg class="back-to-top-circle" viewBox="0 0 100 100">
-                <circle class="genie-inv" cx="50" cy="30" r="30"/>    
-            </svg>
-        </a>
     </main>
     <footer></footer>
 </body>

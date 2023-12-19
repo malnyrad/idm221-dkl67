@@ -3,132 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio | irl.rpg</title>
+    <title>LAMDA | irl.rpg</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="bg-deco">
-    <header class="bg-deco">
+    <header class="header-bar">
+        <h6><a href="index.html" class="logo" id="top">&lambda;</a></h6>
+        <!--navigation-->
         <nav>
-            <div class="overlay">
-                <label for="toggle">
-                    <img src="images/hamburger-menu.svg" alt="Hamburger menu">
-                </label>
-                <h6><a href="index.html" class="nav-logo" id="top">&lambda;</a></h6>
-            </div>
-            <input id="toggle" type="checkbox" name="toggle">
-            <!--navigation-->
-            <ul class="nav-links">
-                <!--portfolio; same as home page-->
-                <li>
-                    <div class="nav-item">
-                        <a href="index.html" class="contrast">PORTFOLIO</a>
-                        <svg class="small-circle" viewBox="-2 -9 75 75">
-                            <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                    <ul class="sub-nav">
-                        <!--case studies-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="case-studies.html" class="contrast">CASE STUDIES</a>
-                                <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="nutmeg-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--digital media-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="digital-media.html" class="contrast">DIGITAL MEDIA</a>
-                                <svg class="small-circle" viewBox="-2 -6 75 75">
-                                    <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--mixed media-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="mixed-media.html" class="contrast">MIXED MEDIA</a>
-                                <svg class="small-circle" viewBox="-2 -11 75 75">
-                                    <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                        <!--photography-->
-                        <li>
-                            <div class="nav-item">
-                                <a href="photography.html" class="contrast">PHOTOGRAPHY</a>
-                                <svg class="small-circle" viewBox="-2 -9 75 75">
-                                    <circle class="genie-inv" cx="30" cy="25" r="25"/>
-                                </svg>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-                <!--about me-->
-                <li>
-                    <div class="nav-item">
-                        <a href="about.html" class="contrast">ABOUT</a>
-                        <svg class="small-circle" viewBox="-2 -8 75 75">
-                            <circle class="espresso-bar-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                </li>
-                <!--resume-->
-                <li>
-                    <div class="nav-item">
-                        <a href="resume.html" class="contrast">RESUME</a>
-                        <svg class="small-circle" viewBox="-2 -6 75 75">
-                            <circle class="blue-whale-inv" cx="30" cy="25" r="25"/>
-                        </svg>
-                    </div>
-                </li>
+            <input id="toggle" type="checkbox">
+            <label class="menu-button" for="toggle">
+                <img src="images/hamburger-menu.svg" class="light-filter" alt="Hamburger menu">
+                <span></span>
+            </label>
+            <ul class="bg-deco-2 menu-overlay">
+                <li><a href="index.html" class="lower-case nutmeg-inv-text selected-menu-item">Home</a></li>
+                <li><a href="personal.html" class="lower-case menu-item">Personal</a></li>
+                <li><a href="about.html" class="lower-case menu-item">About</a></li>
+                <li><a href="resume.html" class="lower-case menu-item">Resume</a></li>
             </ul>
         </nav>
-        <!--irl.rpg title-->
-        <div class="blank-space"></div>
-        <div class="case-study-header">
-            <div>
-                <h2>IRL.RPG</h2>
-                <p class="tag-line lower-case">App Design</p>
-                <img src="images/irlrpg_logo.png" alt="The IRL.RPG logo">
-            </div>
-        </div>
     </header>
     <main>
-        <div class="sub-header bit-space">
-            <h2><span class="blue-whale-inv-text">P</span>roject <span class="blue-whale-inv-text">D</span>escription</h2>
+        <!--irl.rpg title-->
+        <h2 class="blank-space center-align project-header">IRL.RPG</h2>
+        <p class="blue-whale-inv-text center-align lower-case tag-line">App Design</p>
+        <img src="images/irlrpg_logo.png" alt="The IRL.RPG logo">
+        <div class="half-space"></div>
+        <!--description-->
+        <h2 class="lower-case no-margin"><span class="blue-whale-inv-text">P</span>roject <span class="blue-whale-inv-text">D</span>escription</h2>
+        <img src="images/irlrpg_homepage.png" class="project-vertical" alt="The landing screen upon entering the IRL.RPG app">
+        <p class="center-align italic lower-case">Home page</p>
+        <p>&emsp;&emsp;This project was an app (re)design for a mobile application of our choosing for IDM 213 (Interaction Design). We were tasked with redesigning, rebranding, and ultimately reimagining an app, using Figma to develop our vision for the core task a user could perform on the new app. After fleshing out interactions and microinteractions with Figma, the final task flow would then be animated using Adobe After Effects.</p>
+        <div class="center-title">
+            <div class="vertical-photoset">
+                <img src="images/irlrpg_newtaskpage1.png" class="triple-column" alt="The first screen when creating a new task">
+                <img src="images/irlrpg_backpage.png" class="triple-column" alt="The pop-up that appears to confirm you want to discard a task you're making">
+                <img src="images/irlrpg_newtaskpage2.png" class="triple-column" alt="The second screen when creating a new task">
+            </div>
+            <p class="center-align italic lower-case">Creating a task</p>
         </div>
-        <div class="case-study-description">
-            <div class="center-horizontal">
-                <img src="images/irlrpg_homepage.png" alt="The landing screen upon entering the IRL.RPG app">
-                <p class="italic">Home page</p>
-            </div>
-            <p>&emsp;&emsp;This project was an app (re)design for a mobile application of our choosing for IDM 213 (Interaction Design). We were tasked with redesigning, rebranding, and ultimately reimagining an app, using Figma to develop our vision for the core task a user could perform on the new app. After fleshing out interactions and microinteractions with Figma, the final task flow would then be animated using Adobe After Effects.</p>
-            <div class="center-horizontal">
-                <div class="vertical-photoset">
-                    <img src="images/irlrpg_newtaskpage1.png" alt="The first screen when creating a new task" class="image-small">
-                    <img src="images/irlrpg_backpage.png" alt="The pop-up that appears to confirm you want to discard a task you're making" class="image-small">
-                    <img src="images/irlrpg_newtaskpage2.png" alt="The second screen when creating a new task" class="image-small">
-                </div>
-                <p class="italic">Creating a task</p>
-            </div>
-            <p>&emsp;&emsp;The app I created is IRL.RPG, a habit-building and productivity app inspired by <a href="https://habitica.com" target="_blank" class="text-link">Habitica</a> that gamifies users' everyday tasks through a range of retro RPG elements. With a user-created avatar, users complete tasks and chores for in-app currency, items, and experience for a true RPG experience. IRL.PRG uses a blend of productivity features, game-like features, and a pixel art style to create a novel task-managing experience.</p>
-            <div class="center-horizontal">
-                <img src="images/irlrpg_homecreated.png" alt="A newly created task populating the home screen">
-                <p class="italic">New task created</p>
-            </div>
+        <p>&emsp;&emsp;The app I created is IRL.RPG, a habit-building and productivity app inspired by <a href="https://habitica.com" target="_blank" class="text-link">Habitica</a> that gamifies users' everyday tasks through a range of retro RPG elements. With a user-created avatar, users complete tasks and chores for in-app currency, items, and experience for a true RPG experience. IRL.PRG uses a blend of productivity features, game-like features, and a pixel art style to create a novel task-managing experience.</p>
+        <img src="images/irlrpg_homecreated.png" class="project-vertical" alt="A newly created task populating the home screen">
+        <p class="center-align italic lower-case">New task created</p>
+        <div class="quarter-space"></div>
+        <!--button group-->
+        <div class="prev-button">
+            <a href="generic-website.html"><img src="images/circle.svg" class="espresso-bar-inv-filter" alt="circle"></a>
+            <a href="generic-website.html" class="button-link"><span class="dark-text">&#9666; pr</span>ev</a>
         </div>
-        <a href="#top" class="back-to-top">
-            <div class="center">
-                <h5 class="dark-text bold">&#9652;</h5>
-                <h5>B<span class="dark-text bold">ack to To</span>p</h5>
-            </div>
-            <svg class="back-to-top-circle" viewBox="0 0 100 100">
-                <circle class="genie-inv" cx="50" cy="30" r="30"/>    
-            </svg>
-        </a>
+        <div class="next-button">
+            <a href="taqueria-dos-hermanos.html"><img src="images/circle.svg" class="genie-inv-filter" alt="circle"></a>
+            <a href="taqueria-dos-hermanos.html" class="button-link">ne<span class="dark-text">xt &#9656;</span></a>
+        </div>
+        <div class="half-space"></div>
+        <div class="back-button">
+            <a href="index.html#my-projects"><img src="images/circle.svg" class="blue-whale-inv-filter" alt="circle"></a>
+            <a href="index.html#my-projects" class="button-link">go back</a>
+        </div>
     </main>
     <footer></footer>
 </body>
