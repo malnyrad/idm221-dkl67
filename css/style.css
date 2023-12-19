@@ -272,7 +272,7 @@ p {
     text-decoration: none;
 }
 
-main > ul {
+main > ul, main li {
     font-family: var(--ot-round);
     font-size: 3.5vw; 
     font-style: normal;
@@ -341,12 +341,6 @@ img {
 
 .vertical-photoset img {
     width: 43vw;
-}
-
-.horizontal-photoset {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .bg-deco {
