@@ -46,6 +46,7 @@ html {
     --rhythm-4: 20vw;
 }
 
+
 /*color changes ===============================================================
     - icon color filter: https://codepen.io/sosuke/pen/Pjoqqp*/
 /*light mode ==========================*/
@@ -351,16 +352,16 @@ img {
 .bg-deco {
     background-attachment: fixed;
     background-image: url("../images/bg_sphere2.png");
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .bg-deco-2 {
     background-attachment: fixed;
     background-image: url("../images/bg_sphere.png");
-    background-size: contain;
     background-position: bottom;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 /*buttons =============================*/
@@ -396,8 +397,8 @@ img {
 }
 
 .next-button img {
-    position: relative;
     left: 64.5vw;
+    position: relative;
     width: var(--rhythm-3);
 }
 
@@ -429,11 +430,13 @@ img {
     top: -8.5vw;
 }
 
+
 /*navigation ==================================================================
     - sliding hamburger menu: https://codepen.io/alvarotrigo/pen/yLzaPVJ*/
 .header-bar {
     align-items: center;
-    background-color: var(--background-dark);
+    background-color: #151710;
+    box-shadow: -0.5vw 0 1.5vw rgba(0, 0, 0, .25);
     display: flex;
     flex-direction: column;
     height: var(--rhythm-4);
@@ -507,8 +510,9 @@ img {
     background-color: rgba(9, 13, 3, .75);
 }
 
+
 /*home page ===================================================================
-overlapping reference: https://jsfiddle.net/25UTA/1/*/
+    - overlapping reference: https://jsfiddle.net/25UTA/1/*/
 .title-top {
     letter-spacing: 0.3rem;
     position: absolute;
@@ -555,8 +559,8 @@ article > img.horizontal-image {
 }
 
 .project-box h2 {
-    margin-top: var(--rhythm-1);
     margin-bottom: 1.5vw;
+    margin-top: var(--rhythm-1);
 }
 
 .project-box p {
@@ -567,6 +571,7 @@ article > img.horizontal-image {
 .project-blurb {
     font-size: 3.5vw;
 }
+
 
 /*projects pages ==============================================================*/
 .project-header {
@@ -610,6 +615,7 @@ main > img.project-horizontal {
     width: 25.5vw;
 }
 
+
 /*personal page ===============================================================*/
 .scrollable {
     border-radius: 0.5vw;
@@ -636,6 +642,7 @@ main > img.project-horizontal {
 .scrollable > .vertical-photoset img {
     width: 38.5vw;
 }
+
 
 /*about me page ===============================================================*/
 .about-me img {
@@ -669,19 +676,20 @@ main > img.project-horizontal {
     width: 15vw;
 }
 
+
 /*resume page =================================================================*/
 
 .resume-icon {
+    left: 37vw;
     position: relative;
     top: 6.5vw;
-    left: 37vw;
     width: 8vw;
 }
 
 .resume-circle {
+    left: 43.5vw;
     position: absolute;
     top: 55vw;
-    left: 43.5vw;
     width: 15vw;
     z-index: -1;
 }
